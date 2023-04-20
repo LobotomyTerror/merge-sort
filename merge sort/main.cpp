@@ -169,7 +169,7 @@ int main(int argc, const char * argv[])
     outf << '\n';
     
     int arr2[1000000];
-    int len2 = sizeof(arr) / sizeof(int);
+    int len2 = sizeof(arr2) / sizeof(int);
     
     for (int n=0; n<1000000; n++)
         arr2[n]=rand()%79315+1;
