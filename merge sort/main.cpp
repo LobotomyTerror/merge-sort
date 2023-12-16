@@ -146,7 +146,7 @@ void mergeSortR(int arr[], int leftSide, int rightSide)
 int main(int argc, const char * argv[])
 {
     std::ofstream outf;
-    outf.open("/Users/danielfishbein/Documents/computerProjects/Xcode/merge sort/merge sort/data.txt");
+    outf.open("data.txt");
     
     if (!outf.is_open())
         std::cout << "Error opening file\n";
